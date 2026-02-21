@@ -57,12 +57,12 @@ Dog images: Dog_01.jpg, Dog_02.jpg
 Other animals: Animal_Name_01.jpg
 
 Objects: Object_Name_01.jpg
-
-Project Status
+---
+** Project Status ** 
 
 Completed and fully functional.
 
-# License
+**License**
 
 Open-source under the Udacity License.
 
