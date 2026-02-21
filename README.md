@@ -1,8 +1,16 @@
-# pre-trained-image-classifier
-# Dog Breed Classifier Project
+# Pre-trained Image Classifier for Dogs
 
 ## Overview
 This project is a Python-based image classifier that detects dogs, non-dog animals, and objects, and identifies dog breeds using pre-trained CNN models: **ResNet**, **AlexNet**, and **VGG**. The project allows testing on both default images (`pet_images/`) and custom uploaded images (`uploaded_images/`).
+
+Open-source under the **Udacity License**.
+
+---
+
+## Objectives
+1. Correctly distinguish dog images from non-dog images.
+2. Accurately classify the breed of dogs in dog images.
+3. Compare performance of three CNN models: **ResNet**, **AlexNet**, and **VGG**, and identify which model performs best for the uploaded images.
 
 ---
 
@@ -40,11 +48,15 @@ Results are saved as .txt files for each CNN model.
 ---
 
 ## Usage
+
 ### Default Pet Images
+To classify the default pet images in `pet_images/`, run:
+
 ```bash
 sh run_models_batch.sh
+Uploaded Images
 
-## Notes on Uploaded Images
+To classify your own uploaded images in uploaded_images/, follow these guidelines:
 
 Images must be JPEG (.jpg) and RGB (3 channels).
 
@@ -58,15 +70,14 @@ Other animals: Animal_Name_01.jpg
 
 Objects: Object_Name_01.jpg
 
----
+Run the classification script for uploaded images:
 
-## Project Status
-Completed and fully functional.
+sh run_models_batch_uploaded.sh
 
----
+Results will be saved as .txt files for each CNN model.
 
-## License 
-Open-source under the Udacity License.
 
----
+
+
+
 
