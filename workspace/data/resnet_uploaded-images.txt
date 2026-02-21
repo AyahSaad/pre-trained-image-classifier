@@ -1,0 +1,102 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                  rabbit_01.jpg  label:                     rabbit
+ 2 key:                     dog_01.jpg  label:                        dog
+ 3 key:              coffee_cup_01.jpg  label:                 coffee cup
+ 4 key:                     dog_02.jpg  label:                        dog
+
+Filename=rabbit_01.jpg
+Pet Label=rabbit
+Classifier Label=hare
+Match=0
+
+Filename=dog_01.jpg
+Pet Label=dog
+Classifier Label=chesapeake bay retriever
+Match=0
+
+Filename=coffee_cup_01.jpg
+Pet Label=coffee cup
+Classifier Label=wooden spoon
+Match=0
+
+Filename=dog_02.jpg
+Pet Label=dog
+Classifier Label=chesapeake bay retriever
+Match=0
+
+     MATCH:
+
+ NOT A MATCH:
+
+                 rabbit_01.jpg: 
+Real:                     rabbit   Classifier:                           hare
+
+                    dog_01.jpg: 
+Real:                        dog   Classifier:       chesapeake bay retriever
+
+             coffee_cup_01.jpg: 
+Real:                 coffee cup   Classifier:                   wooden spoon
+
+                    dog_02.jpg: 
+Real:                        dog   Classifier:       chesapeake bay retriever
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+     MATCH:
+
+ NOT A MATCH:
+
+                 rabbit_01.jpg: 
+Real:                     rabbit   Classifier:                           hare  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    dog_01.jpg: 
+Real:                        dog   Classifier:       chesapeake bay retriever  
+PetLabelDog: 1  ClassLabelDog: 1
+
+             coffee_cup_01.jpg: 
+Real:                 coffee cup   Classifier:                   wooden spoon  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    dog_02.jpg: 
+Real:                        dog   Classifier:       chesapeake bay retriever  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+Classification Summary:
+
+Results Summary for CNN Model: RESNET
+# Total Images      :   4
+# Dog Images        :   2
+# Not-a-Dog Images  :   2
+
+Percentage Statistics:
+Pct Match: 0.0%
+Pct Correct Dogs: 100.0%
+Pct Correct Breed: 0.0%
+Pct Correct Notdogs: 100.0%
+
+
+
+Misclassified Dog Breeds:
+dog_01.jpg                    : Real Breed=dog                   Classifier=chesapeake bay retriever
+dog_02.jpg                    : Real Breed=dog                   Classifier=chesapeake bay retriever
+
+
+
+** Total Elapsed Runtime: 0:1:16
